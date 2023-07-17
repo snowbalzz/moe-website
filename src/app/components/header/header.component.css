@@ -1,0 +1,13 @@
+header {
+    margin: 30px auto;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: rgb(87, 87, 87);
+}

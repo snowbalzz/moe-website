@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Scoreboard</h1>
+    <h4>for you to see how bad you did</h4>
+    <div class="scoreboard-container">
+        <div *ngFor="let score of scores" >
+            <div class="score">
+                <h3>
+                  ID: {{score.id}}# | Player {{score.text}} bonked the other one!
+                </h3>
+                <p>
+                   Date: {{score.day}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

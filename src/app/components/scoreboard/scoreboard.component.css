@@ -1,0 +1,21 @@
+h4 {
+    font-style: italic;
+}
+
+.score {
+    padding: 10px 10px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow: 5px 5px 10px 1px rgb(207, 199, 189);
+}
+
+.score h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score p{
+    padding: 2px;
+}
