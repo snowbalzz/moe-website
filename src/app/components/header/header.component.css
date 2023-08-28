@@ -3,11 +3,62 @@ header {
     text-align: center;
 }
 
+h3 {
+  color: lightseagreen;
+}
+
 a {
   text-decoration: none;
-  color: #000;
+  color: #292929;
 }
 
 a:hover {
   color: rgb(87, 87, 87);
+}
+
+img{
+  margin-bottom: 1%;
+}
+
+*, *::before, *::after{
+  -webkit-box-sizing:padding-box;
+  box-sizing:padding-box;
+}
+
+.tickerwrapper {
+  /* the outer div */
+  
+  position: relative;
+  margin-top: 1%;
+  left: 21%;
+  width: 99.9%;
+  height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 60%;
+  animation: flashing-style 0.6s linear infinite;
+}
+
+.tickerwrapper img {
+  width: 100px;
+  height: 50px;
+  margin: 0;
+}
+
+ul.list {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+ul.list.cloned {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+ul.list li {
+  float: left;
 }

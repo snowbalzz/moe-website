@@ -15,6 +15,6 @@ export class ScoreboardComponent {
   constructor (private scoresService: ScoresService){}
   
   ngOnInit(): void{
-    this.scoresService.getScore().subscribe((scores) => this.scores = scores)
+    // this.scoresService.getScore().subscribe((scores) => this.scores = scores)
   }
 }

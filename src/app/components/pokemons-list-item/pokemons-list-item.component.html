@@ -1,0 +1,6 @@
+<div class="pokelist" (click)="toggle()">
+    <h3>Name : {{ pokemon.name.toUpperCase() }}</h3>
+    <p>URL: {{ pokemon.url }}</p>
+    <div class="pokedetail" *ngIf="selected">
+    </div>
+</div>

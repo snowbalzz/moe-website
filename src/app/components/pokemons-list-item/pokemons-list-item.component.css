@@ -1,0 +1,36 @@
+
+.pokelist {
+    padding: 10px 10px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    margin: 15px auto;
+    box-shadow: 1px 1px 1px 1px rgb(207, 199, 189);
+}
+.pokelist-container{
+    overflow: auto;
+    height: 48.5vh;
+    -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.pokelist-container ::-webkit-scrollbar {
+    display: none;  /* Other Popular browsers */
+}
+
+.pokelist h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokelist p{
+    padding: 2px;
+}
+
+.pokedetail{
+    padding: 10px 10px;
+    height: 10vh;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+    background-color: red;
+}

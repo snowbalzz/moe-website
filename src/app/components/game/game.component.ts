@@ -106,7 +106,7 @@ export class GameComponent {
       day: dateTime
     }
     const body = JSON.stringify(newScore);
-    this.scoresService.addScore(body).subscribe();
+    // this.scoresService.addScore(body).subscribe();
   }
 
   /**

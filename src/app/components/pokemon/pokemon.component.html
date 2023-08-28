@@ -1,0 +1,7 @@
+<h1>Pokemons</h1>
+<h4>because I really like them</h4>
+<div class="pokelist-container" *ngIf="!loading">
+  <div *ngFor="let res of payload.results">
+    <app-pokemons-list-item [pokemon]="res" ></app-pokemons-list-item>
+  </div>
+</div>

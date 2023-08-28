@@ -13,11 +13,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { EndComponent } from './components/end/end.component';
 import { PlayerStatusComponent } from './components/player-status/player-status.component';
-
+import { PokemonComponent } from './components/pokemon/pokemon.component';
+import { HomeComponent } from './components/home/home.component';
+import { PokemonsListItemComponent } from './components/pokemons-list-item/pokemons-list-item.component';
+import { SnakeComponent } from './components/snake/snake.component';
 
 const appRoutes: Routes = [
-  { path: '', component: GameComponent},
-  { path: 'scoreboard', component: ScoreboardComponent}
+  { path: '', component: HomeComponent},
+  { path: 'ticktacktoe', component: GameComponent},
+  // { path: 'scoreboard', component: ScoreboardComponent},
+  { path:'pokemons', component:PokemonComponent},
+  { path: 'snake', component:SnakeComponent}
 ]
 
 @NgModule({
@@ -29,6 +35,10 @@ const appRoutes: Routes = [
     FooterComponent,
     EndComponent,
     PlayerStatusComponent,
+    PokemonComponent,
+    HomeComponent,
+    PokemonsListItemComponent,
+    SnakeComponent
   ],
   imports: [
     BrowserModule,

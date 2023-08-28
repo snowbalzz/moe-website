@@ -18,11 +18,11 @@ export class ScoresService {
 
   constructor(private http:HttpClient) { }
 
-  getScore(): Observable<Scores[]> {
-    return this.http.get<Scores[]>(this.apiUrl);
+  getVisitors(): Observable<number> {
+    return this.http.get<number>(this.apiUrl);
   }
 
-  addScore(score: string): Observable<any>{
+  addVisitor(score: string): Observable<any>{
     return this.http.post(this.apiUrl, score, httpOptions);
   }
 
