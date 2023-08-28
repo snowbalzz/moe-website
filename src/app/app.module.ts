@@ -20,6 +20,7 @@ import { SnakeComponent } from './pages/snake/snake.component';
 import { LinksComponent } from './pages/links/links.component';
 import { ArtComponent } from './pages/art/art.component';
 import { LinksCardsComponent } from './components/links-cards/links-cards.component';
+import { MoeClockComponent } from './components/moe-clock/moe-clock.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -47,7 +48,8 @@ const appRoutes: Routes = [
     SnakeComponent,
     LinksComponent,
     ArtComponent,
-    LinksCardsComponent
+    LinksCardsComponent,
+    MoeClockComponent
   ],
   imports: [
     BrowserModule,

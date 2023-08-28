@@ -9,6 +9,28 @@
   padding: 30px;
   border-radius: 5px;
   box-shadow: 5px 10px 10px 10px rgb(207, 199, 189);
+  background-color:antiquewhite;
+  animation: slideInFromLeft 0.4s linear;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateY(-20%);
+      opacity: 0%;
+  }
+  25%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 0%;
+  }
+  75%{
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+      transform: translateY(0);
+  }
 }
 
 
