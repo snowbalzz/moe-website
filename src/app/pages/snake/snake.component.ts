@@ -1,5 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import { KeyboardService } from '../services/keyboard.service';
+import { KeyboardService } from '../../services/keyboard.service';
 
 @Component({
   selector: 'app-snake',

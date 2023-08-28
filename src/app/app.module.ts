@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { GameComponent } from './components/game/game.component';
+import { GameComponent } from './pages/game/game.component';
 import { ScoreboardComponent } from './components/scoreboard/scoreboard.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './components/app-routing.module';
@@ -13,12 +13,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { EndComponent } from './components/end/end.component';
 import { PlayerStatusComponent } from './components/player-status/player-status.component';
-import { PokemonComponent } from './components/pokemon/pokemon.component';
-import { HomeComponent } from './components/home/home.component';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
+import { HomeComponent } from './pages/home/home.component';
 import { PokemonsListItemComponent } from './components/pokemons-list-item/pokemons-list-item.component';
-import { SnakeComponent } from './components/snake/snake.component';
-import { LinksComponent } from './components/links/links.component';
-import { ArtComponent } from './components/art/art.component';
+import { SnakeComponent } from './pages/snake/snake.component';
+import { LinksComponent } from './pages/links/links.component';
+import { ArtComponent } from './pages/art/art.component';
 import { LinksCardsComponent } from './components/links-cards/links-cards.component';
 
 const appRoutes: Routes = [

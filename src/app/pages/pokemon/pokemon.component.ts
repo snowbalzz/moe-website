@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PokemonService } from '../services/pokemon.service';
+import { PokemonService } from '../../services/pokemon.service';
 import { BehaviorSubject, Subscription, switchMap, tap } from 'rxjs';
 
 @Component({

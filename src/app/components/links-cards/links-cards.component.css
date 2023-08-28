@@ -7,10 +7,6 @@
     box-shadow: 1px 1px 1px 1px rgb(207, 199, 189);
 }
 
-.col{
-    columns: 2;
-}
-
 
 .link-container {
 display: grid;
