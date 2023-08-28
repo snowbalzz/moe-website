@@ -30,10 +30,10 @@ export class HeaderComponent {
   {
     this.subs.add(
       this.time$.subscribe( value => {
+        this.clock = value;
         this.hours = value.getHours().toString().split("")
         this.minutes = value.getMinutes().toString().split("")
         this.seconds = value.getSeconds().toString().split("")
-        this.clock = value
       })
     )
   }

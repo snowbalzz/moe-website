@@ -1,10 +1,10 @@
 <div class="clock">
-    <img src="../../../assets/{{hours[0]}}.gif" alt="" srcset="">
-    <img src="../../../assets/{{hours[1]}}.gif" alt="" srcset="">
+    <img *ngIf="hours[0]" src="../../../assets/{{hours[0]}}.gif" alt="hours-0">
+    <img *ngIf="hours[1]" src="../../../assets/{{hours[1]}}.gif" alt="hours-1">
     <h1>:</h1>
-    <img *ngIf="minutes[0]" src="../../../assets/{{minutes[0]}}.gif" alt="" srcset="">
-    <img *ngIf="minutes[1]" src="../../../assets/{{minutes[1]}}.gif" alt="" srcset="">
+    <img *ngIf="minutes[0]" src="../../../assets/{{minutes[0]}}.gif" alt="minutes-0">
+    <img *ngIf="minutes[1]" src="../../../assets/{{minutes[1]}}.gif" alt="minutes-1">
     <h1>:</h1>
-    <img *ngIf="seconds[0]" src="../../../assets/{{seconds[0]}}.gif" alt="" srcset="">
-    <img *ngIf="seconds[1]" src="../../../assets/{{seconds[1]}}.gif" alt="" srcset="">
+    <img *ngIf="seconds[0]" src="../../../assets/{{seconds[0]}}.gif" alt="seconds-0">
+    <img *ngIf="seconds[1]" src="../../../assets/{{seconds[1]}}.gif" alt="seconds-1">
 </div>

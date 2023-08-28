@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./moe-clock.component.css']
 })
 export class MoeClockComponent {
-  @Input() time!:Date
   @Input() minutes!: string[]
   @Input() hours!: string[]
   @Input() seconds!: string[]
