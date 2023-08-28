@@ -17,13 +17,19 @@ import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { HomeComponent } from './components/home/home.component';
 import { PokemonsListItemComponent } from './components/pokemons-list-item/pokemons-list-item.component';
 import { SnakeComponent } from './components/snake/snake.component';
+import { LinksComponent } from './components/links/links.component';
+import { ArtComponent } from './components/art/art.component';
+import { LinksCardsComponent } from './components/links-cards/links-cards.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'ticktacktoe', component: GameComponent},
   // { path: 'scoreboard', component: ScoreboardComponent},
   { path:'pokemons', component:PokemonComponent},
-  { path: 'snake', component:SnakeComponent}
+  { path: 'snake', component:SnakeComponent},
+  { path: 'links', component:LinksComponent},
+  {path:'art', component:ArtComponent}
+  
 ]
 
 @NgModule({
@@ -38,7 +44,10 @@ const appRoutes: Routes = [
     PokemonComponent,
     HomeComponent,
     PokemonsListItemComponent,
-    SnakeComponent
+    SnakeComponent,
+    LinksComponent,
+    ArtComponent,
+    LinksCardsComponent
   ],
   imports: [
     BrowserModule,
