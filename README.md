@@ -1,4 +1,6 @@
-# Tictactoe
+# MOE-Portfolio webiste
+Project created to remember angualr and also to create a portfolio website with place to store my digital art. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
 ## Running end-to-end tests
