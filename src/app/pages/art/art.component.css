@@ -8,7 +8,7 @@
     border: 2px solid lightseagreen;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 5px 10px 10px 10px rgb(207, 199, 189);
+    box-shadow: 1px 5px 5px 5px rgb(207, 199, 189);
     background-color:antiquewhite;
     animation: slideInFromLeft 0.4s linear;
 }
@@ -33,6 +33,10 @@
   }
 }
 
+.title {
+  margin-bottom: 5%;
+}
+
 .search {
   height: 100%; 
   width: 25%;
@@ -49,6 +53,7 @@
   border-radius: 2px;
   padding-left: 2%;
   font-weight: bold;
+  background-color: whitesmoke;
 }
 
 .search li, ul{

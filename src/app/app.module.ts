@@ -26,8 +26,8 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'ticktacktoe', component: GameComponent},
   // { path: 'scoreboard', component: ScoreboardComponent},
-  { path:'pokemons', component:PokemonComponent},
-  { path: 'snake', component:SnakeComponent},
+  // { path:'pokemons', component:PokemonComponent},
+  // { path: 'snake', component:SnakeComponent},
   { path: 'links', component:LinksComponent},
   {path:'art', component:ArtComponent}
   

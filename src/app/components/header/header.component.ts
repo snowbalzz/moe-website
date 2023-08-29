@@ -11,17 +11,15 @@ import { Observable, Subscription, timer } from "rxjs";
 })
 export class HeaderComponent {
   
-  private subs = new Subscription()
-  
   time$: Observable<Date> = timer(0, 1000).pipe(
     map((tick) => new Date()),
     shareReplay(1)
   ); 
-
+  
   hours !: string[];
   minutes !: string[];
   seconds!: string[];
-
+  subs = new Subscription()
   clock!: Date;
   
   constructor(private router: Router, private scoreService: ScoresService) {}

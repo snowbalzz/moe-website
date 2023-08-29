@@ -7,15 +7,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./links-cards.component.css']
 })
 export class LinksCardsComponent {
-  @Input() linkName:string = "sample link";
-  @Input() URL!:string;
-  @Input() desc:string = 'sample description of the sample link';  
+  @Input() linkName!:string;
+  @Input() url!:string;
+  @Input() iconFile!:string;
+  @Input() desc!:string;  
   @Input() color!: string;
-  
-  selected : boolean = false;
-
-  toggle(){
-    this.selected = !this.selected;
-  }
-
 }

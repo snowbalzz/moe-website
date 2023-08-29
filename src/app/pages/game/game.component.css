@@ -37,8 +37,9 @@
   .tick-container {
     width: 300px;
     height: 250px;
-    margin: 30px auto;
+    margin: auto;
     overflow: auto;
+    margin-top: 15%;
     min-height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -61,13 +62,6 @@
       color: white;
   }
 
-
-  .tick:active{
-    transition: all 0.05s ease-in-out;
-    transform: scale(0.95);
-    /* background-color: rgb(32, 158, 152); */
-  }
-  
   .tick:hover{
       transition: all 0.05s ease-in-out;
       transform: scale(0.95);
@@ -77,6 +71,4 @@
       font-style: italic;
   }
   
-  h1 {
-    margin-top:20px
-  }
+  

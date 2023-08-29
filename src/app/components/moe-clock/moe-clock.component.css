@@ -3,7 +3,6 @@
     margin-bottom: 1%;
     align-items: center;
     justify-content: center;
-    animation: slideInFromLeft 0.4s linear;
 }
 
 .clock h1,img{
